@@ -6,6 +6,7 @@
 }
 /* reset */
 * {
+  font-size: 1em;
   font-family: var(--font1);
   padding: 0;
   margin: 0;
@@ -13,12 +14,28 @@
 }
 /* body */
 body {
-  background: #000;
-
   height: 100dvh;
   width: 100dvw;
 }
+main {
+  background: #000
+    url(https://images.pexels.com/photos/821679/pexels-photo-821679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+    no-repeat top center/cover;
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* container */
-.container{
-    
+.container {
+  max-width: 80%;
+  text-align: center;
+
+  color: #fff;
+  background: #000;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.628);
+  border-radius: 10px;
+  font-size: 2em;
+  padding: 0.5em;
 }
